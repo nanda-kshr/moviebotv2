@@ -1,10 +1,14 @@
 from telethon import TelegramClient, events, Button
 from telethon.sessions import StringSession
 
-api_id = 12052562
-api_hash ="c53c3fbbe715b46ce4753cc846bef207"
-bot_token = "5389420009:AAHaXRzQkfmExUi5XiHi829xnm9qcGb1YEM"
-session = "1BVtsOJIBuzug1PMOMw5ZVMKva794UtFhaQW8XYmtmzq41b31ACHHduRZbWG3QD2X0kuun87w4VT6MjFI5RpoQKaGTi4pqbkm5MyuyiUjaJRJuRd0BEa45taoa2i8XkPVPflvrfta3ZQmNX0gUqJIA0MI3IYCbZQcoXAX8tnVClbeYJNBfAaPLY76Mz2Nhxixh8Q8iwQLAguLwEN_4h6G9TQwcIgBy6JUu4jT-DH569Eo700Y7folsom9kcVp-KHCxDQmMr_9QbEmrL9IqM5ILnKo1Qwcq-Eyxh41G7037-S03xNOuH7wypNJh8bkMDCFrNGrKVAU-k5zWZNF3OTnhYONZaop1ts="
+api_id = {your api}
+api_hash = {your api hash}
+bot_token = "{your bot token}"
+session = "{yur string session}"
+
+
+#-------------------------DONT TOUCH OTHERS---------------------------
+
 client = TelegramClient(StringSession(session), api_id, api_hash)
 #client = TelegramClient("botty", api_id, api_hash)
 
